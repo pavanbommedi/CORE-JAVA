@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "SingletonClass/Singleton",
+        "MultiThreading",
+        "LooseCoupling",
+        "JavaStreamAPI",
+        "JavaCollections/CollectionsOverview",
+        "Java-OOPS-Part1",
+        "FunctionalInterfaces/ChainingLambdas",
+        ""
+    ]
+}

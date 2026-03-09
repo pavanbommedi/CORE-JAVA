@@ -1,3 +1,5 @@
+package Abstract_Challenge;
+
 class ArtObject extends ProductForSale {
 
     
