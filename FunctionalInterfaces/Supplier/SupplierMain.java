@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 public class SupplierMain {
     public static void main(String[] args) {
 
-        String[] str = new String[] {"Pavan","Deekshitha","Vyshnavi","Ayesha","Rupika"};
+        String[] str = new String[] {"Pavan","Deekshith","Kiran","Ayesha","Sam"};
 
         String[] res = supplierFunction(15, str, ()-> new Random().nextInt(0,str.length));
         System.out.println(Arrays.toString(res));

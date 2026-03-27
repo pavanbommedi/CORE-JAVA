@@ -20,7 +20,7 @@ class PlainOld{
 public class MethodRefMain {
     public static void main(String[] args) {
 
-        List<String> strList = new ArrayList<>(Arrays.asList("Pavan","Deekshitha","vyshnavi"));
+        List<String> strList = new ArrayList<>(Arrays.asList("Pavan","Deekshith","Sam"));
         strList.forEach(s -> System.out.println(s));
 
         // calculator((a,b)->a+b, 10, 20);
@@ -41,8 +41,8 @@ public class MethodRefMain {
         UnaryOperator<String> res2 = String::toUpperCase;
 
         System.out.println(res.apply("Pavan"," Bommedi"));
-        System.out.println(res1.apply("Vyshnavi", " Arpikatla"));
-        System.out.println(res2.apply("Deekshitha"));
+        System.out.println(res1.apply("Sam", " Umesh"));
+        System.out.println(res2.apply("Deekshith"));
 
         
         

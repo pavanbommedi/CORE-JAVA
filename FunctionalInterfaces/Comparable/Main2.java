@@ -1,3 +1,5 @@
+package FunctionalInterfaces.Comparable;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -7,9 +9,9 @@ public class Main2 {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee(104,"Pavan", 28000));
-        employees.add(new Employee(103,"Deekshitha", 22000));
-        employees.add(new Employee(105,"Vyshnavi", 50000));
-        employees.add(new Employee(101,"Rupika", 28000));
+        employees.add(new Employee(103,"Deekshith", 22000));
+        employees.add(new Employee(105,"Umesh", 50000));
+        employees.add(new Employee(101,"Kiran", 28000));
         employees.add(new Employee(102,"Ayesha", 18000));
 
         Collections.sort(employees,new empComparator());

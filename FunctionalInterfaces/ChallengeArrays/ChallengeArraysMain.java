@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class ChallengeArraysMain {
     public static void main(String[] args) {
-        String[] strArray = {"Bommedi","Arpikatla","Shatagopam","Madam","Turlapati"};
+        String[] strArray = {"Bommedi","Umesh","Shatagopam","Madam","Kiran"};
         Arrays.setAll(strArray,s->strArray[s].toUpperCase());
         System.out.println(Arrays.toString(strArray));
 

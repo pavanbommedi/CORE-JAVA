@@ -15,7 +15,7 @@ public class Main {
         System.out.println("--".repeat(15));
 
         String strTarget = "Pavan";
-        String[] strArray = {"Deekshitha","Vyshnavi","Pavan","Ayesha"};
+        String[] strArray = {"Deekshith","Umesh","Pavan","Kiran"};
         for(String s: strArray){
             int val = strTarget.compareTo(s);
             System.out.println(val);

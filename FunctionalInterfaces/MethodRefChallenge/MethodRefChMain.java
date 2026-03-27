@@ -17,7 +17,7 @@ public class MethodRefChMain {
 
     public static void main(String[] args) {
 
-        String [] names = {"Pavan","Deekshitha","Vyshnavi","Rajeev","Ayesha","Rupika"};
+        String [] names = {"Pavan","Deekshith","Ramesh","Rajeev","Ayesha","Kiran"};
         List<UnaryOperator<String>> list = new ArrayList<>(List.of(
             String::toUpperCase, //Class::instanceMethod
             s->s+=" "+getRandomChar('D', 'M'),
